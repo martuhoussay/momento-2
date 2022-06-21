@@ -1,0 +1,681 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+header{
+    display: inline;
+    justify-content: space-around;
+    padding-top: 7%;
+    padding-right: 2%;
+    padding-bottom: 7%;
+    padding-left: 2%;
+    border: 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+}
+.gris {
+    display: flex;
+    justify-content: center;
+    background-color:darkslategrey;
+    height: 150px;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    padding-bottom: 2%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white; 
+    background-color: black;
+    transition: background-color .5s;
+}
+  nav a:hover {
+    background-color:darkslategray;
+    color: black;
+  }
+
+section {
+    max-width: 1300px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7f7f7f;
+}
+
+.principal img {
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+
+.secundario {
+    margin-top: 5%;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.secundario div {
+    width: 33%;
+    padding: 2%;
+    text-align: center;
+}
+
+.secundario div img {
+    width: 100%;
+    margin-bottom: 2rem;
+    align-content:center
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+footer{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 1%;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: black;
+    transition: background-color .5s;
+}
+
+footer a:hover {
+    background-color:darkslategray;
+    color: black;
+  }
+footer a:visited {
+    color: white;
+}
+
+h3 {
+    font-size: 2.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.sinopsisimagen {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 10%;
+}
+.sinopsisimagen img{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-right: 30%;
+}
+.sinopsistexto {
+    display: inline-block;
+    width: 50%;
+    justify-content: space-around;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+.sinopsistexto p{
+    color: white;
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 3rem;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.holden {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+.holden img {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.holdentexto {
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bill {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+.bill img{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.billtexto {
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.wendy {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+.wendy img {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.wendytexto {
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.davidfincher {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.davidfincher img {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-right: 30%;
+}
+
+.davidfinchertexto {
+    display: inline-block;
+    width: 50%;
+    height: 350px;
+    justify-content: space-around;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+.davidfinchertexto p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.curiosidades {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    width: 80%;
+}
+
+.curiosidades img {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.curiosidadestexto {
+    font-size: 1.3rem;
+    color: white;
+    display: inline;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
+.curiosidadestexto p {
+    margin-bottom: 4%;
+}
+
+.críticas {
+    font-size: 1.3rem;
+    color: white;
+    display: inline;
+    justify-content: space-around;
+}
+
+.críticas p{
+    margin-bottom: 6%;
+}
+
+.galería {
+    margin-top: 5%;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.galería div{
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    align-items: center;
+}
+.galería div a img{
+    width: 100%;
+    margin-bottom: 2rem;
+    align-content:center
+}
+
+.terciario {
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.terciario div {
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.terciario input {
+    margin-bottom: 20px;
+}
+
+.terciario textarea {
+    margin-bottom: 15px;
+}
+
+.terciario div img {
+    width: 100%;
+    margin-bottom: 2rem;
+    align-content:center
+}
+
+.icon {
+    display: none;
+    color: white;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+header {
+    flex-wrap: wrap;
+    display: inline;
+    justify-content: space-around;
+    font-size: 30px;
+    height: 40px;
+    margin-left: 2%;
+}
+    .gris {
+        display: inline;
+        justify-content: space-around;
+        height: 70px;
+        width: 100%;
+        margin-left: 2%;
+    }
+header div, header a {
+flex: 1 o 50%;
+}
+header nav {
+    flex-basis: 100%;
+}
+nav ul { display: none; }
+nav.responsive ul{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.icon {display: block;
+margin-left: 2%;}
+section {
+max-width: 480px;
+width: 100%;  }
+
+.principal {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #7f7f7f;
+margin-left: 3%;
+
+}  
+.principal div {
+    margin-right: 20px;
+}
+.principal div img {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secundario {
+    margin-top: 10%;
+    display: inline-block;
+    margin-left: 3%;
+}
+.secundario div {
+    width: 70%;
+    text-align: center;
+    margin-left: 45px;
+}
+.secundario div img {
+    width: 100%;
+    margin-bottom: 1rem;
+    align-content:center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    max-width: 480px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+}
+.sinopsisimagen {
+    display: inline-block;
+    width: 90%;
+}
+.sinopsisimagen img{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 4%;
+}
+.sinopsistexto {
+    display: flex;
+    align-content: center;
+    width: 95%;
+    justify-content: center;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+.sinopsistexto p{
+    color: white;
+    font-size: 1.2rem;
+}
+h4 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+.holden {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+.holden img {
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    width: 55%;
+}
+
+.holdentexto {
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 480px;
+    width: 97%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.bill {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+.bill img{
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    width: 105%;
+}
+.billtexto {
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 480px;
+    width: 97%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.wendy {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+.wendy img {
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 105%;
+    margin-bottom: 5%;
+}
+
+.wendytexto {
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 480px;
+    width: 97%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.davidfincher {
+    display: inline-block;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 0%;
+}
+
+.davidfincher img {
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    margin-right: 30%;
+    margin-left: 2%;
+}
+
+.davidfinchertexto {
+    display: inline-block;
+    width: 95%;
+    justify-content: space-around;
+    margin-right: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.davidfinchertexto p {
+    font-size: 1.rem;
+    color: white;
+}
+.curiosidades {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    width: 70%;
+}
+
+.curiosidades img {
+    width: 30%;
+}
+
+.curiosidadestexto {
+    font-size: 1.2rem;
+    color: white;
+    display: inline;
+    justify-content: space-around;
+}
+
+.curiosidadestexto p {
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+}
+.críticas {
+    font-size: 1.3rem;
+    color: white;
+    display: inline;
+    justify-content: space-around;
+}
+
+.críticas p{
+    margin-bottom: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 97%;
+}
+
+.galería {
+    margin-top: 5%;
+    display: flex;
+}
+
+.galería div{
+    width: 150%;
+    padding: 2%;
+    text-align: center;
+    align-items: center;
+}
+.galería div a img{
+    width: 100%;
+    margin-bottom: 2rem;
+    align-content:center
+}
+.terciario {
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.terciario div {
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.terciario input {
+    margin-bottom: 20px;
+}
+
+.terciario textarea {
+    margin-bottom: 15px;
+}
+
+.terciario div img {
+    width: 100%;
+    max-width: 480px;
+    margin-bottom: 2rem;
+}
+
+footer{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 1%;
+    margin-top: 40%;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 30%;
+    background-color: black;
+    transition: background-color .5s;
+}
+
+footer a:hover {
+    background-color:darkslategray;
+    color: black;
+  }
+} 
