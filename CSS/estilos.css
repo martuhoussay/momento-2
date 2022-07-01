@@ -140,6 +140,7 @@ h3 {
     display: inline-block;
     width: 40%;
     margin-bottom: 10%;
+    margin-right: 2%;
 }
 .sinopsisimagen img{
     width: 100%;
@@ -150,14 +151,16 @@ h3 {
 }
 .sinopsistexto {
     display: inline-block;
-    width: 50%;
+    width: 55%;
     justify-content: space-around;
     margin-right: 1%;
     margin-bottom: 2%;
+    margin-top: 5%;
 }
 .sinopsistexto p{
     color: white;
     font-size: 1rem;
+    margin-bottom: 1%;
 }
 
 h4 {
@@ -182,7 +185,7 @@ h4 {
 .holdentexto {
     font-size: 1.3rem;
     color: white;
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -201,7 +204,7 @@ h4 {
 .billtexto {
     font-size: 1.3rem;
     color: white;
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -222,7 +225,7 @@ h4 {
 .wendytexto {
     font-size: 1.3rem;
     color: white;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     margin-bottom: 10%;
 }
@@ -254,6 +257,11 @@ h4 {
 .davidfinchertexto p {
     font-size: 1.1rem;
     color: white;
+    margin-bottom: 4%;
+}
+
+strong {
+    color: darkred;
 }
 
 .curiosidades {
@@ -307,9 +315,10 @@ h4 {
     align-items: center;
 }
 .galería div a img{
-    width: 100%;
+    width: 30%;
     margin-bottom: 2rem;
-    align-content:center
+    align-content:center;
+    margin-right: 3%;
 }
 
 .terciario {
@@ -350,8 +359,7 @@ header {
     flex-wrap: wrap;
     display: inline;
     justify-content: space-around;
-    font-size: 30px;
-    height: 40px;
+    font-size: 45px;
     margin-left: 2%;
 }
     .gris {
@@ -372,6 +380,9 @@ nav.responsive ul{
     display: inline-block;
     width: 100%;
     text-align: center;
+}
+nav ul li {
+    display: block;
 }
 .icon {display: block;
 margin-left: 2%;}
@@ -441,17 +452,18 @@ footer{
     margin-left: 4%;
 }
 .sinopsistexto {
-    display: flex;
+    display: inline-block;
     align-content: center;
-    width: 95%;
+    width: 100%;
     justify-content: center;
-    margin-right: 1%;
+    margin-right: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
 }
 .sinopsistexto p{
     color: white;
     font-size: 1.2rem;
+    margin-bottom: 2%;
 }
 h4 {
     font-size: 2rem;
@@ -479,7 +491,7 @@ h4 {
 .holdentexto {
     font-size: 1.3rem;
     color: white;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     max-width: 480px;
     width: 97%;
@@ -504,7 +516,7 @@ h4 {
 .billtexto {
     font-size: 1.3rem;
     color: white;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     max-width: 480px;
     width: 97%;
@@ -531,7 +543,7 @@ h4 {
 .wendytexto {
     font-size: 1.3rem;
     color: white;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     max-width: 480px;
     width: 97%;
@@ -550,8 +562,8 @@ h4 {
     width: 70%;
     margin-top: 5%;
     margin-bottom: 1%;
-    margin-right: 30%;
-    margin-left: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .davidfinchertexto {
@@ -614,15 +626,16 @@ h4 {
 }
 
 .galería div{
-    width: 150%;
+    width: 100%;
     padding: 2%;
     text-align: center;
     align-items: center;
 }
 .galería div a img{
-    width: 100%;
+    width: 30%;
     margin-bottom: 2rem;
-    align-content:center
+    align-content:center;
+    margin-right: 1%;
 }
 .terciario {
     margin-top: 5%;
